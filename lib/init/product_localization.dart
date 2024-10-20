@@ -11,7 +11,7 @@ final class ProductLocalization extends EasyLocalization {
     super.key,
   }) : super(
           supportedLocales: _supportedItems,
-          path: 'asset/translations',
+          path: 'assets/translations',
           useOnlyLangCode: true,
         );
 

@@ -13,7 +13,7 @@ final class ApplicationInitialize {
     await runZonedGuarded<Future<void>>(
       _initialize,
       (error, stack) {
-        debugPrint(error as String?);
+        print(error as String?);
       },
     );
   }
@@ -26,7 +26,7 @@ final class ApplicationInitialize {
     //  Splash// await DeviceUtility.instance.initPackageInfo();
 
     FlutterError.onError = (details) {
-      debugPrint(details.exceptionAsString());
+      print(details.exceptionAsString());
     };
 
     _productEnvironmentWithContainer();

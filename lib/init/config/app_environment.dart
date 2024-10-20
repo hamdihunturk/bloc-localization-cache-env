@@ -1,12 +1,9 @@
-import 'package:teamup/init/config/app_configration.dart';
-import 'package:teamup/init/config/gen/dev_env.dart';
-import 'package:teamup/init/config/gen/prod_env.dart';
-import 'package:flutter/foundation.dart';
+import 'package:gen/gen.dart';
 
 /// Application environment manager class
 final class AppEnvironment {
   AppEnvironment.setup() {
-    _config = kDebugMode ? DevEnv() : ProdEnv();
+    _config = Env();
   }
 
   static late final AppConfiguration _config;
