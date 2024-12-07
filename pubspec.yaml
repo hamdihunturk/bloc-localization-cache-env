@@ -16,10 +16,12 @@ dependencies:
   http: ^1.2.2
   equatable: ^2.0.5
   easy_localization: ^3.0.7
+  auto_route: ^9.2.2
 
   gen:
     path: module/gen
-  auto_route: ^9.2.2
+  common:
+    path: module/common
 
 dev_dependencies:
   flutter_test:
