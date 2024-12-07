@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:teamup/init/theme/custom_color_scheme.dart';
-import 'package:teamup/init/theme/custom_theme.dart';
+import 'package:teamup/product/init/theme/custom_color_scheme.dart';
+import 'package:teamup/product/init/theme/custom_theme.dart';
 
 /// Custom light theme for project design
 final class CustomLightTheme implements CustomTheme {
