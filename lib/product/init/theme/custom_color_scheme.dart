@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gen/gen.dart';
 
 /// Project custom colors
 final class CustomColorScheme {
@@ -62,7 +63,7 @@ final class CustomColorScheme {
     onPrimaryContainer: Color(0xffffdbd1),
     secondary: Color(0xffe7bdb2),
     onSecondary: Color(0xff442a22),
-    secondaryContainer: Color(0xff5d4037),
+    secondaryContainer: ColorName.crimsonRed,
     onSecondaryContainer: Color(0xffffdbd1),
     tertiary: Color(0xffd8c58d),
     onTertiary: Color(0xff3b2f05),
